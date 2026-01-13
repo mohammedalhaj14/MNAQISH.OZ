@@ -1,16 +1,76 @@
-# React + Vite
+# 🚀 NITROGEAR | Elite Sports Performance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**NITROGEAR** is a high-performance e-commerce storefront designed for professional athletes. Built with a "Dark Elite" aesthetic, it prioritizes speed, high-conversion lead generation, and a premium user experience.
 
-Currently, two official plugins are available:
+**[Explore the Live Demo »](https://sports-products-landing-page.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **⚡ Smooth Navigation:** Implements a custom `ScrollToTop` helper and hash-link anchoring for seamless movement between the home page and specific sections like FAQ.
+* **🛍️ Dynamic Catalog:** Features a categorized product gallery (Apparel, Fitness, Tech) with real-time filtering logic.
+* **💬 WhatsApp Integration:** Includes a direct-to-chat sales funnel that pre-fills product inquiries for instant lead generation.
+* **📱 Fully Responsive:** Utilizes a mobile-first design with a dedicated overlay menu for smaller screens.
+* **🙋 Interactive FAQ:** An accordion-style section managed by React state to provide quick answers to common athlete queries.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Framework:** React.js
+* **Routing:** React Router DOM (v6)
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Hosting:** Vercel
+
+---
+
+## 🚀 Installation & Setup
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/your-username/nitrogear.git
+cd nitrogear
+
+```
+
+
+2. **Install Dependencies**
+```bash
+npm install
+
+```
+
+
+3. **Launch Local Environment**
+```bash
+npm run dev
+
+```
+
+
+
+---
+
+## 📂 Architecture Overview
+
+* **`Navbar`**: Fixed-position navigation with mobile menu toggle.
+* **`Home`**: Hero carousel, horizontal product showcase, athlete reviews, and the FAQ system.
+* **`ProductPage`**: Full catalog with category-based filtering functionality.
+* **`LegalPage`**: Reusable template for Terms of Service and Privacy Policy.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License.
+
+---
+
+## 📞 Contact
+
+**Project Lead:** Mohammad Al Haj
+
+**Email:** [mohammedalhaj14@gmail.com](mailto:mohammedalhaj14@gmail.com)
+---
