@@ -1,49 +1,73 @@
-# 🚀 NITROGEAR | Elite Sports Performance
+# 🍕 MNAQISH.OZ - مخبوزات الأصالة
 
-**NITROGEAR** is a high-performance e-commerce storefront designed for professional athletes. Built with a "Dark Elite" aesthetic, it prioritizes speed, high-conversion lead generation, and a premium user experience.
+تطبيق ويب عصري ومتكامل لعرض وطلب المعجنات والمخبوزات اللبنانية الأصيلة. يتميز الموقع بتجربة مستخدم سلسة وتصميم جذاب يعكس هوية "MNAQISH.OZ".
 
-**[Explore the Live Demo »](https://sports-products-landing-page.vercel.app/)**
-
----
-
-## ✨ Key Features
-
-* **⚡ Smooth Navigation:** Implements a custom `ScrollToTop` helper and hash-link anchoring for seamless movement between the home page and specific sections like FAQ.
-* **🛍️ Dynamic Catalog:** Features a categorized product gallery (Apparel, Fitness, Tech) with real-time filtering logic.
-* **💬 WhatsApp Integration:** Includes a direct-to-chat sales funnel that pre-fills product inquiries for instant lead generation.
-* **📱 Fully Responsive:** Utilizes a mobile-first design with a dedicated overlay menu for smaller screens.
-* **🙋 Interactive FAQ:** An accordion-style section managed by React state to provide quick answers to common athlete queries.
+🚀 **[مشاهدة العرض الحي (Live Demo)](https://mnaqish-oz.vercel.app/)**
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ المميزات الرئيسية (Features)
 
-* **Framework:** React.js
-* **Routing:** React Router DOM (v6)
-* **Styling:** Tailwind CSS
-* **Icons:** Lucide React
-* **Hosting:** Vercel
+* **🏠 الصفحة الرئيسية الديناميكية:** تحتوي على سلايدر (Slider) تفاعلي يعرض أشهر المخبوزات بشكل جذاب.
+* **📜 منيو متكامل:** قائمة طعام منظمة مع صور عالية الجودة وأسعار محدثة.
+* **🔥 نظام العروض والنكهات:** صفحات مخصصة لعرض العروض الحصرية وإضافات النكهات الخاصة.
+* **🛡️ لوحة تحكم الإدارة (Admin Panel):** نظام مدمج يسمح لصاحب العمل بإضافة منتجات، عروض، وآراء زبائن جديدة مباشرة من المتصفح.
+* **📱 الطلب عبر واتساب:** نظام سلة مشتريات ذكي يحول الطلبات مباشرة إلى رقم الواتساب الخاص بالمحل.
+* **❤️ آراء الزبائن:** قسم خاص لعرض تجارب الزبائن لتعزيز الثقة.
+* **📱 تصميم متجاوب (Responsive):** متوافق تماماً مع جميع الشاشات (موبايل، تابلت، كمبيوتر).
 
 ---
 
-## 🚀 Installation & Setup
+## 🛠️ التقنيات المستخدمة (Tech Stack)
 
-1. **Clone the Repository**
+* **React.js:** لبناء واجهة مستخدم تفاعلية وسريعة.
+* **Tailwind CSS:** للتنسيق العصري والتصميم المتجاوب.
+* **Vite:** كأداة تطوير وتجميع سريعة جداً.
+* **LocalStorage:** لحفظ بيانات لوحة التحكم والعروض برمجياً في المتصفح.
+* **Lucide React:** لأيقونات واجهة المستخدم (UI Icons).
+
+---
+
+## 📂 هيكلية المشروع (Project Structure)
+
+```text
+src/
+├── components/       # المكونات القابلة لإعادة الاستخدام (Navbar, Footer)
+├── pages/            # صفحات الموقع (Home, Menu, Admin, etc.)
+├── data.js           # ملف البيانات الأولي للمنتجات والعروض
+├── App.jsx           # المحرك الرئيسي للتطبيق وإدارة الصفحات
+└── main.jsx          # نقطة الإدخال الرئيسية للمشروع
+
+```
+
+---
+
+## ⚙️ التشغيل المحلي (Local Installation)
+
+إذا كنت ترغب في تشغيل المشروع على جهازك:
+
+1. **قم بعمل Clone للمستودع:**
 ```bash
-git clone https://github.com/your-username/nitrogear.git
-cd nitrogear
+git clone [https://github.com/mohammedalhaj14/MNAQISH.OZ.git](https://github.com/mohammedalhaj14/MNAQISH.OZ.git)
 
 ```
 
 
-2. **Install Dependencies**
+2. **انتقل إلى مجلد المشروع:**
+```bash
+cd MNAQISH.OZ
+
+```
+
+
+3. **تثبيت المكتبات:**
 ```bash
 npm install
 
 ```
 
 
-3. **Launch Local Environment**
+4. **تشغيل المشروع:**
 ```bash
 npm run dev
 
@@ -53,24 +77,16 @@ npm run dev
 
 ---
 
-## 📂 Architecture Overview
+## 📧 التواصل (Contact)
 
-* **`Navbar`**: Fixed-position navigation with mobile menu toggle.
-* **`Home`**: Hero carousel, horizontal product showcase, athlete reviews, and the FAQ system.
-* **`ProductPage`**: Full catalog with category-based filtering functionality.
-* **`LegalPage`**: Reusable template for Terms of Service and Privacy Policy.
+لأي استفسار أو طلبات خاصة، يمكنكم التواصل عبر:
+
+* **البريد الإلكتروني:** [mohammedalhaj14@gmail.com](mailto:mohammedalhaj14@gmail.com)
+---
+
+Developed with ❤️ by **Mohammed Al Haj**
+
+```
 
 ---
 
-## 📄 License
-
-Distributed under the MIT License.
-
----
-
-## 📞 Contact
-
-**Project Lead:** Mohammad Al Haj
-
-**Email:** [mohammedalhaj14@gmail.com](mailto:mohammedalhaj14@gmail.com)
----
