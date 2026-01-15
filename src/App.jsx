@@ -140,7 +140,7 @@ export default function App() {
       {cart.length > 0 && (
         <div className="fixed bottom-8 inset-x-6 z-50 flex justify-center">
           <button 
-            onClick={() => window.open(`https://wa.me/961767241776?text=أود طلب: ${cart.map(c => c.name).join(', ')}`)}
+            onClick={() => window.open(`https://wa.me/96176724176?text=أود طلب: ${cart.map(c => c.name).join(', ')}`)}
             className="bg-green-600 text-white px-10 py-5 rounded-full font-black shadow-2xl flex items-center gap-4 hover:scale-105 transition"
           >
             تأكيد الطلب عبر واتساب ({total}$) 📱
