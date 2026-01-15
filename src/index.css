@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --color-olive: #2D3E2F;
+  --color-clay: #D97706;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  @apply bg-[#FBFBFA] antialiased;
+}
